@@ -7,6 +7,17 @@ theme:
     text: 仿宋 Noto Sans SC
   language: zh
   favicon: docs/favicon.ico
+  features:
+    - content.code.copy
+    - content.code.select
 # extra:
 #   generator: false
 copyright: 粤ICP备18030181号
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

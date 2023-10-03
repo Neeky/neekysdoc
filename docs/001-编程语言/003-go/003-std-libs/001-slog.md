@@ -72,6 +72,6 @@ func main() {
 ```
 运行效果
 ```
-{"time":"2023-09-27T22:17:22.378699+08:00","level":"INFO","msg":"message","key":"value"}
+{"time":"2023-09-27T23:57:22.378699+08:00","level":"INFO","msg":"message","key":"value"}
 ```
 ---
