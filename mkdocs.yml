@@ -10,8 +10,10 @@ theme:
   features:
     - content.code.copy
     - content.code.select
-# extra:
-#   generator: false
+    - navigation.tabs
+    - navigation.top
+extra:
+  generator: false
 copyright: 粤ICP备18030181号
 markdown_extensions:
   - pymdownx.highlight:
