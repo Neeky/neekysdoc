@@ -46,7 +46,6 @@ Out[3]: ['hello\n']
 用 C 语言把 /tmp/test.log 文件的大小读出来
 ```c++
 #include <fcntl.h>
-#include <stdio.h>
 #include <unistd.h>
 #include <iostream>
 #include <sys/stat.h>
