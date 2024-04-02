@@ -1,0 +1,1 @@
+![](../images/mysql-insert.svg)
