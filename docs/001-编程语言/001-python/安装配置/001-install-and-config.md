@@ -13,6 +13,14 @@ wget https://www.python.org/ftp/python/3.12.0/Python-3.12.0.tar.xz
 
 ---
 
+## 安装依赖
+```bash
+yum -y install tar net-tools gcc zlib-devel openssl-devel libffi-devel xz-devel
+```
+
+---
+
+
 ## 编译安装
 我在编译时打开 `--enable-optimizations` 这样虽然在编译安装的时候耗时久一点，但是 Python 在经过优化之后会运行的更快一些。
 ```bash
